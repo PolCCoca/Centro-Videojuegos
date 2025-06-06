@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8" />
+  <title>Inici de sessió - GameZone</title>
+<link rel="stylesheet" href="./css/estil.css">
+</head>
+<body>
+  <h2>Inicia Sessió</h2>
+  <form id="login-form">
+    <select id="metode">
+      <option value="usuari">Nom d'usuari</option>
+      <option value="email">Correu electrònic</option>
+    </select>
+    <input type="text" id="login-id" placeholder="Nom o correu" required />
+    <input type="password" id="login-password" placeholder="Contrasenya" required />
+    <button type="submit">Entrar</button>
+  </form>
+  <p id="login-missatge"></p>
+  <p><a href="registre.html">No tens compte? Registra't aquí</a></p>
+  <script src="js/utils.js"></script>
+  <script src="js/login.js"></script>
+</body>
+</html>

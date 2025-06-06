@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8" />
+  <title>GameZone</title>
+ <link rel="stylesheet" href="./css/estil.css">
+</head>
+<body>
+  <h1>🎮 GameZone</h1>
+  <p>Benvingut, <span id="usuari-nom"></span></p>
+  <button id="logout">Tancar sessió</button>
+  <h2>Galeria de videojocs</h2>
+  <div id="galeria">
+    <div class="joc"><p>🧠 Memory</p><button onclick="jugarRedirigir('joc.html')">Jugar</button></div>
+    <div class="joc"><p>🕹️ Snake</p><button onclick="jugarRedirigir('snake.html')">Jugar</button></div>
+  </div>
+  <script src="js/utils.js"></script>
+  <script src="js/gamezone.js"></script>
+</body>
+</html>
